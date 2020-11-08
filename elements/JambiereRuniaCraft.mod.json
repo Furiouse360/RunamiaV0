@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RuniumOre"
+      },
+      {
+        "value": "CUSTOM:RuniumOre"
+      },
+      {
+        "value": "CUSTOM:RuniumOre"
+      },
+      {
+        "value": "CUSTOM:RuniumOre"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RuniumOre"
+      },
+      {
+        "value": "CUSTOM:RuniumOre"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RuniumOre"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Runia.legs"
+    },
+    "name": "jambiere_runia_craft",
+    "namespace": "mod"
+  }
+}

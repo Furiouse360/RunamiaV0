@@ -1,0 +1,7 @@
+{
+  "parent": "mod_runamia:custom/boule_de_feu",
+  "textures": {
+    "0": "mod_runamia:blocks/sans_titre",
+    "particle": "mod_runamia:items/sans_titre"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "stickofhealing",
+    "customModelName": "Normal",
+    "name": "Stick Of Healing",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Runamia"
+    },
+    "toolType": "Shears",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 5,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "StickOfHealingLorsDunClickDroitDansLair"
+    },
+    "onRightClickedOnBlock": {
+      "name": "StickOfHealingLorsDunClickDroitDansLair"
+    }
+  }
+}

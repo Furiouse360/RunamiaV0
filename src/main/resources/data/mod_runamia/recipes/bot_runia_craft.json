@@ -1,0 +1,26 @@
+{
+  "group": "mod_runamia",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mod_runamia:runium_ore"
+    },
+    "2": {
+      "item": "mod_runamia:runium_ore"
+    },
+    "3": {
+      "item": "mod_runamia:runium_ore"
+    },
+    "5": {
+      "item": "mod_runamia:runium_ore"
+    }
+  },
+  "result": {
+    "item": "mod_runamia:runia_boots",
+    "count": 1
+  }
+}

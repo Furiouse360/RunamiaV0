@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mod_runamia:blocks/thunderore",
+    "up": "mod_runamia:blocks/thunderore",
+    "north": "mod_runamia:blocks/thunderore",
+    "east": "mod_runamia:blocks/thunderore",
+    "south": "mod_runamia:blocks/thunderore",
+    "west": "mod_runamia:blocks/thunderore",
+    "particle": "mod_runamia:blocks/thunderore"
+  }
+}

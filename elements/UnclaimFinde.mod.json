@@ -1,0 +1,39 @@
+{
+  "_fv": 13,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<ENBT:number:Coffre>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<ENBT:number:Coffre>",
+          "x": 318,
+          "y": 15
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unclaimfinder.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "UnclaimFindeAfficherLoverlayEnJeu"
+          },
+          "name": "unclaimfinder.png",
+          "x": 300,
+          "y": 12
+        }
+      }
+    ],
+    "baseTexture": "",
+    "displayCondition": {
+      "name": "UnclaimFindeAfficherLoverlayEnJeu"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "sans_titre"
+      },
+      "name": "default"
+    }
+  }
+}

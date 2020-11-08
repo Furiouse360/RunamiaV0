@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mod_runamia:blocks/convertisseurcotee",
+    "up": "mod_runamia:blocks/convertisseur",
+    "north": "mod_runamia:blocks/convertisseurcotee",
+    "east": "mod_runamia:blocks/convertisseurcotee",
+    "south": "mod_runamia:blocks/convertisseurcotee",
+    "west": "mod_runamia:blocks/convertisseurcotee",
+    "particle": "mod_runamia:blocks/convertisseurcotee"
+  }
+}

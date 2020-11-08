@@ -1,0 +1,12 @@
+{
+  "group": "mod_runamia",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "mod_runamia:runium"
+  },
+  "result": {
+    "item": "mod_runamia:runium_ore"
+  }
+}

@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="mod_runamia"
+version="1.0.0"
+displayName="Mod Runamia"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Ilyes, MCreator"
+
+[[dependencies.mod_runamia]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

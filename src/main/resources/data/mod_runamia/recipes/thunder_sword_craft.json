@@ -1,0 +1,24 @@
+{
+  "group": "mod_runamia",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "mod_runamia:thunder"
+    },
+    "1": {
+      "item": "mod_runamia:thunder"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mod_runamia:thunder_sword",
+    "count": 1
+  }
+}

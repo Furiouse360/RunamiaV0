@@ -1,0 +1,815 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Thunder",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thunder"
+    },
+    {
+      "name": "Runamia",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runamia"
+    },
+    {
+      "name": "ThunderOre",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thunder_ore"
+    },
+    {
+      "name": "TestCommandeCommandExecuted",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_commande_command_executed",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "TestCommande",
+      "type": "command",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_commande"
+    },
+    {
+      "name": "Assembeur",
+      "type": "gui",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "assembeur"
+    },
+    {
+      "name": "GuiBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_block"
+    },
+    {
+      "name": "RuneDeLaFoudre",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rune_de_la_foudre"
+    },
+    {
+      "name": "AquaRune",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aqua_rune"
+    },
+    {
+      "name": "FierRune",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fier_rune"
+    },
+    {
+      "name": "NaturalRune",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "natural_rune"
+    },
+    {
+      "name": "LegendaryRune",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "legendary_rune"
+    },
+    {
+      "name": "UnclaimFider",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unclaim_fider",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnclaimFinder",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unclaim_finder"
+    },
+    {
+      "name": "GuiBlockMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_block_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnclaimFindeAfficherLoverlayEnJeu",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unclaim_finde_afficher_loverlay_en_jeu",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnclaimFinde",
+      "type": "overlay",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unclaim_finde"
+    },
+    {
+      "name": "ThunderStickQuandUneBalleToucheUneEntiteVivante",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thunder_stick_quand_une_balle_touche_une_entite_vivante",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThunderStick",
+      "type": "gun",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thunder_stick"
+    },
+    {
+      "name": "ThunderStickLorsqueLobjetADistanceEstUtilise",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thunder_stick_lorsque_lobjet_a_distance_est_utilise",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StickOfHealingLorsDunClickDroitDansLair",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stick_of_healing_lors_dun_click_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StickOfHealing",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stick_of_healing"
+    },
+    {
+      "name": "Runia",
+      "type": "armor",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runia",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MasqueQuandLaNourritureEstMangee",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "masque_quand_la_nourriture_est_mangee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConvertisseurGui",
+      "type": "gui",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "convertisseur_gui"
+    },
+    {
+      "name": "Convertisseur",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "convertisseur"
+    },
+    {
+      "name": "ConvertisseurProcedure",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "convertisseur_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rg",
+      "type": "armor",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rg",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "RgEvenementDeTickDuCasque",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rg_evenement_de_tick_du_casque",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArcRainbowLorsqueLobjetADistanceEstUtilise",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arc_rainbow_lorsque_lobjet_a_distance_est_utilise",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RunamiaTools",
+      "type": "tab",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runamia_tools"
+    },
+    {
+      "name": "Runium",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runium"
+    },
+    {
+      "name": "RuniumOre",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runium_ore"
+    },
+    {
+      "name": "ThunderSwordLorsqueLoutilEstDansLaMain",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thunder_sword_lorsque_loutil_est_dans_la_main",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThunderSword",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thunder_sword"
+    },
+    {
+      "name": "ThunderSwordCraft",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thunder_sword_craft"
+    },
+    {
+      "name": "RuniumFour",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runium_four"
+    },
+    {
+      "name": "CasqueEnRuniaCraft",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "casque_en_runia_craft"
+    },
+    {
+      "name": "PlastronRuniaCraft",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plastron_runia_craft"
+    },
+    {
+      "name": "JambiereRuniaCraft",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jambiere_runia_craft"
+    },
+    {
+      "name": "BotRuniaCraft",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bot_runia_craft"
+    },
+    {
+      "name": "ThunderStickCraft",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thunder_stick_craft"
+    },
+    {
+      "name": "ThunderHax",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thunder_hax"
+    },
+    {
+      "name": "ThunderHaxCraft",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thunder_hax_craft"
+    },
+    {
+      "name": "ThunderPickaxe",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thunder_pickaxe"
+    },
+    {
+      "name": "ThunderPickaxeCraft",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thunder_pickaxe_craft"
+    },
+    {
+      "name": "ParcheminDuFeux",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "parchemin_du_feux"
+    },
+    {
+      "name": "SortSlot0Parchemin",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sort_slot_0_parchemin",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProcedureCadenaFermerFeux",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "procedure_cadena_fermer_feux",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProcedureCadenaOuvertFeux",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "procedure_cadena_ouvert_feux",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SortGUI",
+      "type": "gui",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sort_gui"
+    },
+    {
+      "name": "SortRaccourcisToucheEnfoncee",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sort_raccourcis_touche_enfoncee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SortRaccourcis",
+      "type": "keybind",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sort_raccourcis"
+    },
+    {
+      "name": "BouleDeFeux",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boule_de_feux"
+    },
+    {
+      "name": "SortDeFeuxToucheEnfoncee",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sort_de_feux_touche_enfoncee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SortDeFeux",
+      "type": "keybind",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sort_de_feux"
+    },
+    {
+      "name": "BouleDeFeuxSort",
+      "type": "gun",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boule_de_feux_sort"
+    },
+    {
+      "name": "TestSort",
+      "type": "particle",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_sort"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "SortDeFeux",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.mod_runamia.thunder_pickaxe": "Thunder Pickaxe",
+      "item.mod_runamia.rune_de_la_foudre": "Thunder Rune",
+      "item.mod_runamia.stick_of_healing": "Stick Of Healing",
+      "item.mod_runamia.runia_chestplate": "Plastron de Runia",
+      "item.mod_runamia.thunder_sword": "Thunder Sword",
+      "item.mod_runamia.rg_leggings": "Jambières de Runia Heal",
+      "item.mod_runamia.aqua_rune": "Aqua Rune",
+      "item.mod_runamia.legendary_rune": "Legendary Rune",
+      "key.mcreator.sort_raccourcis": "Sort Raccourcis",
+      "item.mod_runamia.boule_de_feux_sort": "Boule De Feux Sort",
+      "itemGroup.tabrunamia": "Runamia",
+      "item.mod_runamia.unclaim_finder": "Unclaim Finder",
+      "item.mod_runamia.runia_leggings": "Jambières de Runia",
+      "item.mod_runamia.runium_ore": "Runium Ingot",
+      "item.mod_runamia.boule_de_feux": "Boule De Feux",
+      "key.mcreator.sort_de_feux": "Sort De Feux",
+      "block.mod_runamia.thunder_ore": "Thunder Ore",
+      "item.mod_runamia.thunder_stick": "Thunder Stick",
+      "block.mod_runamia.runium": "RuniumOre",
+      "item.mod_runamia.runia_helmet": "Casque en Runia",
+      "item.mod_runamia.rg_boots": "Bottes en Runia Heal",
+      "item.mod_runamia.rg_helmet": "Casque en Runia Heal",
+      "item.mod_runamia.fier_rune": "Fier Rune",
+      "item.mod_runamia.natural_rune": "Natural Rune",
+      "item.mod_runamia.parchemin_du_feux": "Parchemin Du Feux",
+      "item.mod_runamia.rg_chestplate": "Plastron de Runia Heal",
+      "item.mod_runamia.thunder": "Thunder",
+      "block.mod_runamia.gui_block": "Assembleur ",
+      "itemGroup.tabrunamia_tools": "Runamia Tools",
+      "item.mod_runamia.runia_boots": "Bottes en Runia",
+      "item.mod_runamia.thunder_hax": "Thunder Axe",
+      "block.mod_runamia.convertisseur": "Convertisseur"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "mod_runamia",
+    "modName": "Mod Runamia",
+    "version": "1.0.0",
+    "author": "Ilyes, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.modrunamia",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000543719
+}

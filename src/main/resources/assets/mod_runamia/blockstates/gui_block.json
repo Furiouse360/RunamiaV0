@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mod_runamia:block/gui_block"
+    }
+  }
+}

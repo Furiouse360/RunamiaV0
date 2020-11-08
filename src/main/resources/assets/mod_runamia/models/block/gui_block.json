@@ -1,0 +1,8 @@
+{
+  "parent": "mod_runamia:custom/test",
+  "textures": {
+    "all": "mod_runamia:blocks/sans_titre",
+    "particle": "mod_runamia:blocks/sans_titre",
+    "1": "mod_runamia:blocks/sans_titre"
+  }
+}
